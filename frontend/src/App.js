@@ -22,16 +22,8 @@ function App() {
       };
 
     fetch('/api/contact', options)
-    .then(data => {
-      if (!data.ok) {
-        console.log(data.status)
-        alert('an error occured');
-       }else{
-        alert('Email submitted')
-       }
-       return data.json();
-      }).then(update => {
-        console.log(update);
+    .then(() => {
+      alert('Email submitted')
   })
     }
 
