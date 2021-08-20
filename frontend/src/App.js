@@ -232,13 +232,13 @@ function App() {
           <div className='form-box'>
             <form onSubmit={handleSubmit} >
               <label for="email">Your Email</label>
-              <input type="text" id="email" name="email" placeholder="Your Email.."/>
+              <input type="text" id="email" name="email" placeholder="Your Email.." required/>
 
               <label for="subject">Subject</label>
-              <input type="text" id="subject" name="subject" placeholder="Subject.."/>
+              <input type="text" id="subject" name="subject" placeholder="Subject.." required/>
 
               <label for="message">Message</label>
-              <textarea id="message" name="message" placeholder="Type your message here"/>
+              <textarea id="message" name="message" placeholder="Type your message here" required/>
             
               <input type="submit" value="Submit"/>
             </form>
