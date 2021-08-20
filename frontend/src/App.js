@@ -84,7 +84,6 @@ function App() {
                   {/* <div className="desc">did This and that</div> */}
                 </div>
               </div>
-
             </div>
           </div>
           <div className="section">
