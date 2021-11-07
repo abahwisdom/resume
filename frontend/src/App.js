@@ -244,11 +244,11 @@ function App() {
             </form>
             </div>
           </div>
-          <div className="section" style={{textAlign: 'center'}} >
+          {/* <div className="section" style={{textAlign: 'center'}} >
           <a href="https://internship.zuri.team/">
             <img src={logo}/>
           </a>
-          </div>
+          </div> */}
           </div>
           
         </div>
